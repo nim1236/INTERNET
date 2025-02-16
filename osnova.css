@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Выравниваем текст выше */
+    align-items: center;
+    height: 1000px;
+    margin: 0;
+    text-align: center;
+    padding-top: 100px; /* Добавляем отступ сверху */
+}
+
+.logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 500px;
+}
+
+.logo-2 {
+    position: absolute;
+    top: 10px;  /* Отступ от верхнего края */
+    left: 10px; /* Отступ от левого края */
+    width: 100px; /* Размер новой картинки */
+    height: auto;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Равномерный отступ между текстами */
+    position: relative;
+    top: -50px; /* Поднимаем весь контейнер с текстом */
+}
+
+.text1, .text {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
